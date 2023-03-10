@@ -2,6 +2,7 @@ env/
 .vscode/
 .env
 .venv
+.replit
 index.html
 template_caps.html
 main_caps.py
