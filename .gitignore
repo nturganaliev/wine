@@ -6,7 +6,6 @@ env/
 index.html
 template_caps.html
 main_caps.py
-product_data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
