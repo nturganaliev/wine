@@ -18,7 +18,7 @@
 
 - Нужно скачать проект на локальную машину следующей командой:
 
-    `git clone git@github.com:nturganaliev/wine.git`
+```git clone git@github.com:nturganaliev/wine.git```
 
 Python3 должен быть уже установлен.</br>
 Затем используйте `pip` (или `pip3`, м.б. конфликт с Python2)
