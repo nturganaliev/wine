@@ -44,7 +44,7 @@ def main():
 
     rendered_page = template.render(
         since = correct_year_name(winery_foundation_year),
-        wines = categorize_products(filepath)
+        wine_categories = categorize_products(filepath)
     )
 
     with open('index.html', 'w', encoding="utf8") as file:
