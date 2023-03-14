@@ -32,7 +32,7 @@ def categorize_products(filepath):
 
 def main():
     load_dotenv()
-    filepath = os.getenv('FILE_PATH')
+    filepath = os.getenv('FILE_PATH', default='product_data/wine3.xlsx')
     env = Environment(
         loader=FileSystemLoader('.'),
         autoescape=select_autoescape(['html', 'xml'])
